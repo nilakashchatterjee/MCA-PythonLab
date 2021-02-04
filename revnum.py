@@ -6,7 +6,7 @@ def rev(n): #function definition
         r = r * 10 + a  #saving the reversed number
         n = n // 10
     return r
-num = int(input("Enter the number: "))
+num = float(input("Enter the number: "))
 reverse = rev(num) #function calling
 print(f"The reverse of {num} is {reverse}")
 
