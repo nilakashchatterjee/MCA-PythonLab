@@ -1,4 +1,4 @@
-#this program reverses the input number from user 
+# In this program reverses the input number from user 
 def rev(n): #function definition
     r=0  
     while(n>0):
