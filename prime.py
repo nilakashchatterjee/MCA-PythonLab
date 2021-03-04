@@ -1,3 +1,4 @@
+# In this program we will check whether a number is prime or not prime
 num = int(input("Enter a number:"))
 if num > 1:
     for i in range(2,num//2):
