@@ -7,7 +7,7 @@ def selection(arr):
         for j in range(i+1,n):
             if arr[min]>arr[j]:
                 min=j
-        arr[i],arr[min]=arr[min],arr[i],
+        arr[i],arr[min]=arr[min],arr[i]
 
 
 n = int(input("Enter the range of the array:"))
